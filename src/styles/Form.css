@@ -1,0 +1,50 @@
+form {
+  padding: 60px 20%;
+}
+
+.containerForm {
+  background: #EEE37A30;
+  border: 1px #3C4050 dashed;
+  padding: 20px;
+  border-radius: 16px;
+}
+
+.containerFormTop {
+  width: 100%;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.containerInput label {
+  margin-left: 10px;
+  font-weight: bold;
+
+}
+
+#title {
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px #3C4050 dashed;
+  outline: none;
+}
+
+#description {
+  height: 200px;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px #3C4050 dashed;
+  outline: none;
+}
+
+.containerInput button {
+  font-size: 20px;
+  font-weight: bolder;
+  border-radius: 20px;
+}
+
+
+
