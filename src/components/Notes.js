@@ -49,12 +49,6 @@ export default function Notes({dataNotes, handleDeleteNote}) {
             style={{ background: color }} 
             onChange={(e) => setColor(e.target.value)}
           >  
-            {/* <option style={{background:"#ff7eb9"}} value="#ff7eb9"></option>
-            <option style={{background:"#ff65a3"}} value="#ff65a3"></option>
-            <option style={{background:"#7afcff"}} value="#7afcff"></option>
-            <option style={{background:"#feff9c"}} value="#feff9c"></option>
-            <option style={{background:"#fff740"}} value="#fff740"></option> */}
-
             <option style={{background:"#feffbf"}} value="#feffbf"></option>
             <option style={{background:"#fcdcdf"}} value="#fcdcdf"></option>
             <option style={{background:"#f498c2"}} value="#f498c2"></option>
